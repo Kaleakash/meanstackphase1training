@@ -1,1 +1,2 @@
-Welcome to Phase 1 Git training 
+Welcome to Phase 1 Git training
+Welcome again  
