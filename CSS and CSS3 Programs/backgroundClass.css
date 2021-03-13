@@ -1,0 +1,8 @@
+body{
+    background-image: url("google.png");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-attachment: fixed;
+    background-position-x: 50px;
+    background-position-y: 60px;
+}

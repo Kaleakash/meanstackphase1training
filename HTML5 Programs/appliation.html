@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="home.html" method="get">
+        <label for="">FirstName</label>
+        <input type="text" name="fname"/><br/>
+        <label for="">LastName</label>
+        <input type="text" name="lname"/><br/>
+        <label for="">Gender</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br/>
+        <label for="">Hobbies</label>
+        <input type="checkbox" name="hobbies" value="Reading"> Reading
+        <input type="checkbox" name="hobbies" value="Playing"> Playing
+        <input type="checkbox" name="hobbies" value="Watching TV"> Watching TV
+        <br/>
+        <label for="">City</label>
+        <select name="city">
+            <option>--Select City --</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+        <br/>
+        Address
+        <textarea name="address">
+
+        </textarea>
+        <br/>
+        <input type="submit" value="Store Data"/>
+        <input type="reset" value="reset"/>
+    </form>
+</body>
+</html>
