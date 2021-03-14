@@ -10,12 +10,33 @@
     <script type="text/JavaScript">
     //== and == Operator Example 
     var a = 10;
-    var b= "10a";
+    var b= "10";
     document.write("==<br/>");
     document.write(a==b);           // it check only value. 
     document.write("<br/>")
     document.write("===<br/>"); // it check value as well as data types. 
     document.write(a===b);
+    // type operator or function is use check the data type of that varaible 
+    var n;
+    document.write("<br/>")
+    document.write("n is a type of "+typeof(n));
+    n=10;           // number
+    document.write("<br/>")
+    document.write("n is a type of "+typeof(n));
+    n=10.20;
+    document.write("<br/>")
+    document.write("n is a type of "+typeof(n));
+    n="Ajay";
+    document.write("<br/>")
+    document.write("n is a type of "+typeof(n));
+    n=true;
+    document.write("<br/>")
+    document.write("n is a type of "+typeof(n));
+    n=new Date();
+    document.write("<br/>")
+    document.write("n is a type of "+typeof(n));
+    document.write("<br/>")
+    document.write("n is a type of "+typeof(undefined));
     </script>
 </body>
 </html>
