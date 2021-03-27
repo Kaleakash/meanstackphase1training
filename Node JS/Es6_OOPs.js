@@ -1,4 +1,4 @@
-//ES5 OOPs using function style 
+escape//ES5 OOPs using function style 
 function Employee() {
 	this.id =100;
 	this.name="Ravi";
